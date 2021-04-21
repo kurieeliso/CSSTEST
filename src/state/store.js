@@ -1,7 +1,7 @@
 let store = {
     questions: [
         {
-            qNumber: 'Question 1:',
+            questionNumber: 'Question 1:',
             question: ' how to hide any element from the page?',
             var1: 'div { display:not: visible; }',
             var2: 'div { display: none; }',
@@ -14,7 +14,7 @@ let store = {
             next: 'NEXT'
         },
         {
-            qNumber: 'Question 2:',
+            questionNumber: 'Question 2:',
             question: ' what does the "position: fixed" property do?',
             var1: 'Positions an element on top of others',
             var2: 'Fixes a group of elements together',
@@ -27,7 +27,7 @@ let store = {
             next: 'NEXT'
         },
         {
-            qNumber: 'Question 3:',
+            questionNumber: 'Question 3:',
             question: ' how to set the width of a block element to the entire area?',
             var1: 'width: block',
             var2: 'width: 100%',
@@ -40,7 +40,7 @@ let store = {
             next: 'NEXT'
         },
         {
-            qNumber: 'Question 4:',
+            questionNumber: 'Question 4:',
             question: ' how to override the default styles of list items (li elemetns)?',
             var1: 'list-styles: none',
             var2: 'list-style: none',
@@ -53,7 +53,7 @@ let store = {
             next: 'NEXT'
         },
         {
-            qNumber: 'Question 5:',
+            questionNumber: 'Question 5:',
             question: ' find the syntax error:',
             var1: 'background: url{img/pic.jpg}',
             var2: 'background-position: 0% 0% 0%',
@@ -66,7 +66,7 @@ let store = {
             next: 'NEXT'
         },
         {
-            qNumber: 'Question 6:',
+            questionNumber: 'Question 6:',
             question: ' which property makes all letters capitalized?',
             var1: 'capitalize',
             var2: 'to-uppercase',
@@ -79,7 +79,7 @@ let store = {
             next: 'NEXT'
         },
         {
-            qNumber: 'Question 7:',
+            questionNumber: 'Question 7:',
             question: ' how to correct add padding for a text block?',
             var1: 'padding: 1em',
             var2: 'padding-auto: 5px',
@@ -92,7 +92,7 @@ let store = {
             next: 'NEXT'
         },
         {
-            qNumber: 'Question 8:',
+            questionNumber: 'Question 8:',
             question: ' what the following property does: "float: left"?',
             var1: 'Aligns an element to the left, and all other elements, such as text, flow to the right',
             var2: 'Aligns all elements to the left',
